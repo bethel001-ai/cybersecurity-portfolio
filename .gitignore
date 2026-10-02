@@ -1,0 +1,65 @@
+# ====================================================================
+# LINUX SYSTEM JUNK
+# ====================================================================
+# Core dumps and system architecture junk
+.directory
+*~
+*.swp
+*.bak
+*.tmp
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# ====================================================================
+# CYBERSECURITY DATA & RECON ARTIFACTS
+# ====================================================================
+# Network traffic captures (Wireshark/Tcpdump)
+*.pcap
+*.pcapng
+*.cap
+
+# Verbose log files and Windows Event logs analyzed on Linux
+*.log
+*.audit
+*.evtx
+*.out
+
+# Wordlists or credential dumps used during jobs (e.g., Rockyou subsets)
+*.txt.gz
+*wordlist*
+*passwords*
+hashes.txt
+
+# ====================================================================
+# LINUX TOOLS & IDE CONFIGURATIONS
+# ====================================================================
+# Visual Studio Code / VSCodium local settings
+.vscode/
+
+# Vim local session files
+Session.vim
+
+# ====================================================================
+# PYTHON & AUTOMATION (Common on Linux)
+# ====================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ====================================================================
+# CREDENTIALS & SENSITIVE KEYS (CRITICAL)
+# ====================================================================
+.env
+*.env
+config.json
+*.pem
+*.key
+*.pub
+certs/
+secrets/
